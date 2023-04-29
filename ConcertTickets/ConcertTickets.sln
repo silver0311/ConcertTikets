@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertTickets.Shared", "..\ConcertTickets.Shared\ConcertTickets.Shared.csproj", "{538A3F04-B4BB-4EE9-9F36-3B215FFB31F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertTickets.API", "..\ConcertTickets.API\ConcertTickets.API.csproj", "{F004CB7D-14EE-4454-806E-83E15635FB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertTickets.WEB", "..\ConcertTickets.WEB\ConcertTickets.WEB.csproj", "{4E265FB4-32DE-4638-BD84-3EB9D2570CAF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538A3F04-B4BB-4EE9-9F36-3B215FFB31F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538A3F04-B4BB-4EE9-9F36-3B215FFB31F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538A3F04-B4BB-4EE9-9F36-3B215FFB31F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538A3F04-B4BB-4EE9-9F36-3B215FFB31F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F004CB7D-14EE-4454-806E-83E15635FB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F004CB7D-14EE-4454-806E-83E15635FB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F004CB7D-14EE-4454-806E-83E15635FB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F004CB7D-14EE-4454-806E-83E15635FB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E265FB4-32DE-4638-BD84-3EB9D2570CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E265FB4-32DE-4638-BD84-3EB9D2570CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E265FB4-32DE-4638-BD84-3EB9D2570CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E265FB4-32DE-4638-BD84-3EB9D2570CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
